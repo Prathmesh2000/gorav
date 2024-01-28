@@ -1,0 +1,61 @@
+/* Add this to your CSS file or style section */
+
+.table-container {
+    text-align: center;
+    margin: 20px;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative; /* Added for positioning */
+  }
+  
+  .table-name {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    z-index: 1; /* Ensure it's above the table */
+  }
+  
+  /* Style for the custom scrollbar */
+  .table-container::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .table-container::-webkit-scrollbar-thumb {
+    background-color: #4caf50;
+    border-radius: 6px;
+  }
+  
+  .table-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 6px;
+  }
+  
+  .table-container table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px; /* Added to create space for the table name */
+  }
+  
+  .table-container thead {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table-container tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  

@@ -1,0 +1,67 @@
+/* styles.module.css */
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card {
+  width: auto;
+  margin: 0 10px;
+  box-sizing: border-box;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.avatar img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.titleBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.title {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #182f43;
+}
+
+.subtitle {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #405261;
+}
+
+.contentBox {
+  width: 90%;
+  max-width: 350px;
+  margin: 10px 0;
+  border-left: 3.5px solid #f0f3f6;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #405261;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.companyLogo img {
+  max-height: 80px;
+}

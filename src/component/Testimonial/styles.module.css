@@ -1,0 +1,159 @@
+.wrapper {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.left-arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    height: 400px !important;
+}
+.left-arrow {
+    width: 50px;
+    height: 50px;
+    background: url("https://www.geminisolutions.com/_next/static/media/sliderLeftArrow.68237303.svg") no-repeat center;
+    border: none;
+    cursor: pointer;
+}
+
+.right-arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px !important;
+    width: 8%;
+}
+
+.right-arrow {
+    width: 50px;
+    height: 50px;
+    background: url("https://www.geminisolutions.com/_next/static/media/sliderRightArrow.e8dc0468.svg") no-repeat center;
+    border: none;
+    cursor: pointer;
+}
+
+.testimonialBox {
+    cursor: pointer;
+    width: 70% !important;
+    border-radius: 20px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    background-color: #f3e6e6;
+    position: relative;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow by default */
+}
+
+  
+.testimonialBox:hover {
+    transform: translateY(-10px); /* Move the box up by 10 pixels on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Enhance box shadow on hover */
+}
+  .testimonialBox.hovered {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 255, 0.2);
+  }
+  
+/* styles.module.css */
+
+/* .container {
+    width: 100%;
+    overflow: hidden;
+  } */
+  
+  .card {
+    width: auto;
+    margin: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  .titleBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .title {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #182f43;
+  }
+  
+  .subtitle {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #405261;
+  }
+  
+  .contentBox {
+    width: 90%;
+    max-width: 350px;
+    margin: 10px 0;
+    border-left: 3.5px solid #f0f3f6;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #405261;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  .discription {
+    font-size: 16px;
+    color: #5c5757;
+    height: 60%;
+    margin-top: 10px;
+  }
+
+  .inner-container { 
+    display: flex;
+    flex-direction: row;
+    .img-container{
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        margin-right: 15px;   
+      }
+  }
+
+      
+  .companyLogo img {
+    max-height: 80px;
+  }
+  

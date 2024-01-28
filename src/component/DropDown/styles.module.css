@@ -1,0 +1,59 @@
+.dropdown-container {
+    position: relative;
+    display: inline-block; /* Ensure inline display to match input width */
+    margin: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%; /* Set dropdown width to 100% */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  
+  .dropdown-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected-item {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 999;
+  }
+  
+  /* Add this to your styles.module.css */
+.focused {
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+  }
+  
